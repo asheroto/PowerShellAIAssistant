@@ -1,7 +1,7 @@
 <#
     Ensure you have your OpenAI API key set in your environment variables.
     
-    $env:OPENAI_API_KEY = 'sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+    $env:OpenAIKey = 'sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 #>
 
 Import-Module $PSScriptRoot\..\PowerShellAIAssistant.psm1 -Force
